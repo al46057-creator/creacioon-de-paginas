@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encuesta de satisfaccion</title>
+</head>
+<body>
+    
+      <h1>encuesta de satisfaccion</h1>
+
+</body>
+</html>
+
+    <form>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <p>¿Cuál es su nivel de satisfacción?</p>
+
+        <input type="radio" id="excelente" name="satisfaccion" value="Excelente" required>
+        <label for="excelente">Excelente</label>
+        <br>
+
+        <input type="radio" id="bueno" name="satisfaccion" value="Bueno">
+        <label for="bueno">Bueno</label>
+        <br>
+
+        <input type="radio" id="regular" name="satisfaccion" value="Regular">
+        <label for="regular">Regular</label>
+        <br>
+
+        <input type="radio" id="malo" name="satisfaccion" value="Malo">
+        <label for="malo">Malo</label>
+
+        <br>
+        <br>
+
+        <p>¿Qué temas fueron de su interés?</p>
+
+        <input type="checkbox" id="tecnologia" name="temas" value="Tecnología">
+        <label for="tecnologia">Tecnología</label>
+        <br>
+
+        <input type="checkbox" id="educacion" name="temas" value="Educación">
+        <label for="educacion">Educación</label>
+        <br>
+
+        <input type="checkbox" id="negocios" name="temas" value="Negocios">
+        <label for="negocios">Negocios</label>
+        <br>
+
+        <input type="checkbox" id="innovacion" name="temas" value="Innovación">
+        <label for="innovacion">Innovación</label>
+
+        <br>
+        <br>
+
+        <label for="pais">País o ciudad:</label>
+        <select id="pais" name="pais" required>
+            <option value="">Selecciona una opción</option>
+            <option value="Mexico">México</option>
+            <option value="Monterrey">Monterrey</option>
+            <option value="Saltillo">Saltillo</option>
+            <option value="Matehuala">Matehuala</option>
+            <option value="SanLuisPotosi">San Luis Potosí</option>
+            <option value="CiudadMexico">Ciudad de México</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Cancelar</button>
+
+    </form>
+
+</body>
+
+</html>
